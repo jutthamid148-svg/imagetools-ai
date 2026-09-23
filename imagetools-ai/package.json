@@ -1,0 +1,23 @@
+{
+  "name": "imagetools-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "node --check worker.js && node --check vite.config.js && node --check js/common.js && node --check js/converter.js && node --check js/compressor.js && node --check js/resizer.js && node --check js/cropper.js && node --check js/pdf.js && node --check js/filters.js && node --check js/utilities.js && node --check js/ai-tools.js && node --check ai/ai-service.js && node --check script.js && node --check public/sw.js",
+    "preview": "vite preview",
+    "deploy": "whop apps deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.56.0",
+    "@whop/cli": "^0.18.2",
+    "vite": "^8.3.0",
+    "wrangler": "^4.135.0"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "utif": "^3.1.0"
+  }
+}
