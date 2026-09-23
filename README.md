@@ -5,6 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://imagetools-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+  ·
+  <a href="https://github.com/jutthamid148-svg/imagetools-ai" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+</p>
+
+<p align="center">
   <strong>Free online image tools for converting, compressing, resizing, cropping, and editing photos directly in your browser.</strong>
 </p>
 
